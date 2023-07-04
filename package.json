@@ -1,0 +1,15 @@
+{
+  "name": "queue-utils",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "build/index.js",
+  "files": ["build"],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build && tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}
